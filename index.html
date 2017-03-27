@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Comentarios</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css" media="screen" />
+  </head>
+  <h1> Comentarios </h1>
+    <hr>
+  <body>
+    <div id="seccion"style="color">
+      <span> Si quieres eliminar tu comentario da <strong>CLICK</strong> sobre el comentario a liminar</span>
+      <ol id="lista" onclick="borrar();">
+        </ol>
+
+    </div>
+
+      <h4> Escribe tu comentario </h4>
+
+      <table border="1">
+        <tr>
+          <div>
+          <td><button onclick="textoFuente(1)">Texto Grande</button></td>
+          <td><button onclick="textoFuente(2)">Texto Mediano</button></td>
+          <td><button onclick="textoFuente(3)">Texto Chico</button></td>
+          <td><button onclick="textoFuente(7);">Color de Texto</button></td>
+          <td><button onclick="textoFuente(8)">Color de fondo</button></td>
+          <td><button onclick="textoFuente(4)">Alinear Izquierda</button></td>
+          <td><button onclick="textoFuente(5)">Centrar</button></td>
+          <td><button onclick="textoFuente(6)">Alinear Derecha</button></td>
+
+          </div>
+          </tr>
+          <tr>
+          <td colspan= "9"><textarea id="comentario" rows="10" cols="90" oninput="mostar();" align=center>
+              </textarea>
+          </tr>
+          </table>
+      <h2>Contenido</h2>
+      <p id="textoPrevio"></p>
+      <button onclick="agregarComentario();">Enviar</button>
+      <script src="javaScript.js"></script>
+
+
+
+
+
+  </body>
+  <br>
+  <footer id="pie_de_pagina">
+  Hecho por Lucero Ramos Lázaro
+  </footer>
+</html>

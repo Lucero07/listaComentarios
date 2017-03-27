@@ -1,0 +1,25 @@
+*{
+margin: 10px;
+padding: 5px;
+}
+
+body{
+background-color:#0000CD;
+-webkit-animation: mymove 6s infinite;
+animation: mymove 10s infinite;
+}
+@-webkit-keyframes mymove {
+from {background-color:	#00FFFF;}
+to {background-color: 	#FFFF00;}
+}
+
+h4{
+  background-color:#A00ED0;
+}
+button{
+  border: 2px solid #041162;
+background-color: #96A3F5;
+color: #041162;
+font-family: "Verdana, Arial";
+font-size: 20px; 
+}
